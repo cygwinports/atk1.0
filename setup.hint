@@ -1,0 +1,4 @@
+category: Gnome
+requires: cygwin glib2-runtime
+sdesc: "Accessibility Toolkit library (runtime)"
+ldesc: "The GNOME Accessibility Toolkit library"
