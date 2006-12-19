@@ -3,23 +3,23 @@ atk
 The GNOME Accessibility Toolkit library.
 
 Runtime requirements:
-  cygwin-1.5.21-2
+  cygwin-1.5.22-1
   glib2-2.12.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.21-2
-  autoconf2.5-2.60-1
+  cygwin-1.5.22-1
+  autoconf2.5-2.60-2
   automake1.7-1.7.9-1
   binutils-20050817-1
-  cygport-0.2.5-1
+  cygport-0.2.7-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
   gtk-doc-1.7-1
   libtool1.5-1.5.23a-1
   make-3.81-1
-  pkg-config-0.20-1
-  sed-4.1.5-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
 
 Canonical website:
   http://www.gnome.org/
@@ -30,17 +30,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack atk-1.12.3-X-src.tar.bz2
+  unpack atk-1.12.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./atk-1.12.3-X.cygport all
+  cygport ./atk-1.12.4-X.cygport all
 
 This will create:
-  /usr/src/atk-1.12.3-X-src.tar.bz2
-  /usr/src/atk-1.12.3-X.tar.bz2
-  /usr/src/atk-devel-1.12.3-X.tar.bz2
-  /usr/src/atk-doc-1.12.3-X.tar.bz2
+  /usr/src/atk-1.12.4-X-src.tar.bz2
+  /usr/src/atk-1.12.4-X.tar.bz2
+  /usr/src/atk-devel-1.12.4-X.tar.bz2
+  /usr/src/atk-doc-1.12.4-X.tar.bz2
 
 -------------------------------------------
 
@@ -48,13 +48,13 @@ Files included in the binary packages:
 
 (atk)
   /usr/bin/cygatk-1.0-0.dll
-  /usr/share/doc/Cygwin/atk-1.12.3.README
-  /usr/share/doc/atk-1.12.3/AUTHORS
-  /usr/share/doc/atk-1.12.3/COPYING
-  /usr/share/doc/atk-1.12.3/ChangeLog
-  /usr/share/doc/atk-1.12.3/INSTALL
-  /usr/share/doc/atk-1.12.3/NEWS
-  /usr/share/doc/atk-1.12.3/README
+  /usr/share/doc/Cygwin/atk-1.12.4.README
+  /usr/share/doc/atk-1.12.4/AUTHORS
+  /usr/share/doc/atk-1.12.4/COPYING
+  /usr/share/doc/atk-1.12.4/ChangeLog
+  /usr/share/doc/atk-1.12.4/INSTALL
+  /usr/share/doc/atk-1.12.4/NEWS
+  /usr/share/doc/atk-1.12.4/README
   /usr/share/locale/af/LC_MESSAGES/atk10.mo
   /usr/share/locale/am/LC_MESSAGES/atk10.mo
   /usr/share/locale/ar/LC_MESSAGES/atk10.mo
@@ -217,6 +217,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 1.12.4-1 -----
+Version bump.
 
 ----- version 1.12.3-1 -----
 Version bump for GNOME 2.16.
