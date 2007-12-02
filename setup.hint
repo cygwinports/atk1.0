@@ -1,4 +1,4 @@
 category: Gnome
-requires: cygwin glib2
+requires: cygwin glib2 libintl8
 sdesc: "Accessibility Toolkit library (runtime)"
 ldesc: "The GNOME Accessibility Toolkit library"
