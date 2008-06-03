@@ -1,0 +1,8 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Accessibility Toolkit"
+
+PKG_NAMES="${PN} ${PN}-devel"
+PKG_HINTS="setup devel"
+PKG_CONTENTS[0]='--exclude=gtk-doc usr/bin/ usr/share/'
+PKG_CONTENTS[1]='usr/include/ usr/lib/ usr/share/gtk-doc/'
