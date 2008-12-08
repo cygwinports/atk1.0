@@ -4,6 +4,6 @@ inherit gnome2
 
 DESCRIPTION="GNOME Accessibility Toolkit"
 
-PKG_NAMES="${PN} lib${PN} lib${PN}-devel"
-libatk1_0_CONTENTS='--exclude=gtk-doc usr/bin/cygatk-1.0-0.dll usr/share/'
+PKG_NAMES="${PN} lib${PN}_0 lib${PN}-devel"
+libatk1_0_0_CONTENTS='--exclude=gtk-doc usr/bin/cygatk-1.0-0.dll usr/share/'
 libatk1_0_devel_CONTENTS='usr/include/ usr/lib/ usr/share/gtk-doc/'
