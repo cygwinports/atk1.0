@@ -3,22 +3,23 @@ atk1.0
 The GNOME Accessibility Toolkit library.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libglib2.0-2.18.3-1
-  libintl8-0.17-2
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libglib2.0-2.20.0-1
+  libintl8-0.17-10
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
+  autoconf2.5-2.63-2
   automake1.10-1.10.1-2
   binutils-20080624-2
-  cygport-0.4.2-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gnome-common-2.24.0-1
-  gtk-doc-1.11-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gnome-common-2.26.0-1
+  gtk-doc-1.11-2
   libtool-2.2.6a-1
-  make-3.81-1
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
 
@@ -31,16 +32,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack atk1.0-1.24.0-X-src.tar.bz2
+  unpack atk1.0-1.26.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./atk1.0-1.24.0-X.cygport all
+  cygport ./atk1.0-1.26.0-X.cygport all
 
 This will create:
-  /usr/src/atk1.0-1.24.0-X-src.tar.bz2
-  /usr/src/libatk1.0_0-1.24.0-X.tar.bz2
-  /usr/src/libatk1.0-devel-1.24.0-X.tar.bz2
+  /usr/src/atk1.0-1.26.0-X-src.tar.bz2
+  /usr/src/libatk1.0_0-1.26.0-X.tar.bz2
+  /usr/src/libatk1.0-devel-1.26.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -48,13 +49,12 @@ Files included in the binary packages:
 
 (libatk1.0_0)
   /usr/bin/cygatk-1.0-0.dll
-  /usr/share/doc/atk1.0-1.24.0/AUTHORS
-  /usr/share/doc/atk1.0-1.24.0/COPYING
-  /usr/share/doc/atk1.0-1.24.0/ChangeLog
-  /usr/share/doc/atk1.0-1.24.0/INSTALL
-  /usr/share/doc/atk1.0-1.24.0/MAINTAINERS
-  /usr/share/doc/atk1.0-1.24.0/NEWS
-  /usr/share/doc/atk1.0-1.24.0/README
+  /usr/share/doc/atk1.0/AUTHORS
+  /usr/share/doc/atk1.0/COPYING
+  /usr/share/doc/atk1.0/ChangeLog
+  /usr/share/doc/atk1.0/MAINTAINERS
+  /usr/share/doc/atk1.0/NEWS
+  /usr/share/doc/atk1.0/README
   /usr/share/locale/af/LC_MESSAGES/atk10.mo
   /usr/share/locale/am/LC_MESSAGES/atk10.mo
   /usr/share/locale/ar/LC_MESSAGES/atk10.mo
@@ -100,6 +100,7 @@ Files included in the binary packages:
   /usr/share/locale/li/LC_MESSAGES/atk10.mo
   /usr/share/locale/lt/LC_MESSAGES/atk10.mo
   /usr/share/locale/lv/LC_MESSAGES/atk10.mo
+  /usr/share/locale/mai/LC_MESSAGES/atk10.mo
   /usr/share/locale/mk/LC_MESSAGES/atk10.mo
   /usr/share/locale/ml/LC_MESSAGES/atk10.mo
   /usr/share/locale/mn/LC_MESSAGES/atk10.mo
@@ -113,6 +114,7 @@ Files included in the binary packages:
   /usr/share/locale/or/LC_MESSAGES/atk10.mo
   /usr/share/locale/pa/LC_MESSAGES/atk10.mo
   /usr/share/locale/pl/LC_MESSAGES/atk10.mo
+  /usr/share/locale/ps/LC_MESSAGES/atk10.mo
   /usr/share/locale/pt/LC_MESSAGES/atk10.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/atk10.mo
   /usr/share/locale/ro/LC_MESSAGES/atk10.mo
@@ -123,8 +125,8 @@ Files included in the binary packages:
   /usr/share/locale/sl/LC_MESSAGES/atk10.mo
   /usr/share/locale/sq/LC_MESSAGES/atk10.mo
   /usr/share/locale/sr/LC_MESSAGES/atk10.mo
-  /usr/share/locale/sr@Latn/LC_MESSAGES/atk10.mo
   /usr/share/locale/sr@ije/LC_MESSAGES/atk10.mo
+  /usr/share/locale/sr@latin/LC_MESSAGES/atk10.mo
   /usr/share/locale/sv/LC_MESSAGES/atk10.mo
   /usr/share/locale/ta/LC_MESSAGES/atk10.mo
   /usr/share/locale/te/LC_MESSAGES/atk10.mo
@@ -190,6 +192,7 @@ Files included in the binary packages:
   /usr/share/gtk-doc/html/atk/AtkRelation.html
   /usr/share/gtk-doc/html/atk/AtkRelationSet.html
   /usr/share/gtk-doc/html/atk/AtkSelection.html
+  /usr/share/gtk-doc/html/atk/AtkStateSet.html
   /usr/share/gtk-doc/html/atk/AtkStreamableContent.html
   /usr/share/gtk-doc/html/atk/AtkTable.html
   /usr/share/gtk-doc/html/atk/AtkText.html
@@ -197,7 +200,6 @@ Files included in the binary packages:
   /usr/share/gtk-doc/html/atk/AtkValue.html
   /usr/share/gtk-doc/html/atk/atk-AtkHyperlinkImpl.html
   /usr/share/gtk-doc/html/atk/atk-AtkState.html
-  /usr/share/gtk-doc/html/atk/atk-AtkStateSet.html
   /usr/share/gtk-doc/html/atk/atk.devhelp
   /usr/share/gtk-doc/html/atk/atk.devhelp2
   /usr/share/gtk-doc/html/atk/atk.html
@@ -220,28 +222,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 1.24.0-1 -----
-Version bump for GNOME 2.24.
-
------ version 1.22.0-1 -----
-Version bump for GNOME 2.22.
-
------ version 1.20.0-1 -----
-Version bump for GNOME 2.20.
-
------ version 1.18.0-1 -----
-Version bump for GNOME 2.18.
-
------ version 1.12.4-1 -----
-Version bump.
-
------ version 1.12.3-1 -----
-Version bump for GNOME 2.16.
-
------ version 1.10.3-1 -----
-Version bump.
-Last official release was 1.9.1-1 by Gerrit Haase.
-
+----- version 1.26.0-1 -----
+Initial release of GNOME 2.26 for Cygwin 1.7.
 
 Cygwin port maintained by:
 http://sourceware.org/cygwinports/
