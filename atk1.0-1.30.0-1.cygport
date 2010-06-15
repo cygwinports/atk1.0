@@ -1,0 +1,10 @@
+ORIG_PN="atk"
+
+inherit gnome2
+
+DESCRIPTION="GNOME Accessibility Toolkit"
+
+PKG_NAMES="${PN} lib${PN}_0 lib${PN}-devel girepository-Atk1.0"
+libatk1_0_0_CONTENTS="usr/bin/cygatk-1.0-0.dll usr/share/doc/ usr/share/locale/"
+libatk1_0_devel_CONTENTS='--exclude=gir* usr/include/ usr/lib/ usr/share/gtk-doc/'
+girepository_Atk1_0_CONTENTS="usr/*/gir*/Atk-1.0.*"
