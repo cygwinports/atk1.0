@@ -1,5 +1,0 @@
-category: Gnome
-requires: girepository-GLib2.0 libatk1.0_0
-external-source: atk1.0
-sdesc: "Accessibility Toolkit library (GObject Introspection data)"
-ldesc: "The GNOME Accessibility Toolkit library"

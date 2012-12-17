@@ -1,5 +1,0 @@
-category: Gnome
-requires: libatk1.0_0 libglib2.0-devel gettext
-external-source: atk1.0
-sdesc: "Accessibility Toolkit library (development)"
-ldesc: "The GNOME Accessibility Toolkit library"

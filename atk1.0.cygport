@@ -1,12 +1,16 @@
 ORIG_PN="atk"
-
 inherit gnome2
 
-DESCRIPTION="GNOME Accessibility Toolkit"
+NAME="atk1.0"
+VERSION=2.6.0
+RELEASE=1
+CATEGORY="GNOME"
+SUMMARY="Accessibility Toolkit library"
+DESCRIPTION="The GNOME Accessibility Toolkit library"
 
 PATCH_URI="2.2.0-cygwin.patch"
 
-DEPEND="${GNOME2_DEPEND}
+DEPEND="gnome-common
 	girepository(GLib-2.0)
 	pkgconfig(glib-2.0)"
 
