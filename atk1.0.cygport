@@ -2,7 +2,7 @@ ORIG_PN="atk"
 inherit gnome2
 
 NAME="atk1.0"
-VERSION=2.14.0
+VERSION=2.18.0
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Accessibility Toolkit library"
@@ -16,6 +16,7 @@ DEPEND="gnome-common
 
 PKG_NAMES="lib${NAME}_0 lib${NAME}-devel lib${NAME}-doc girepository-Atk1.0"
 libatk1_0_0_CONTENTS="usr/bin/cygatk-1.0-0.dll usr/share/doc/ usr/share/locale/"
+libatk1_0_devel_REQUIRES="girepository-Atk1.0"
 libatk1_0_devel_CONTENTS="--exclude=gir* usr/include/ usr/lib/"
 libatk1_0_doc_CATEGORY="Doc"
 libatk1_0_doc_CONTENTS="usr/share/gtk-doc/"
