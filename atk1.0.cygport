@@ -2,7 +2,7 @@ ORIG_PN="atk"
 inherit gnome2
 
 NAME="atk1.0"
-VERSION=2.24.0
+VERSION=2.26.1
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Accessibility Toolkit library"
